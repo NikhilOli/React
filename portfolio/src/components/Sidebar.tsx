@@ -3,7 +3,7 @@ import authorImage from '../assets/images/author-image.jpg'
 
 export default function Sidebar() {
   return (
-    <div className="responsive-nav bg-[#dc3546ca] top-0 sticky h-screen w-[20%] flex flex-col ml-[70px]">
+    <div className="hidden md:flex responsive-nav bg-[#a43f49] top-0 sticky h-screen w-[20%] flex-col ml-[70px]">
       <i className="fa fa-bars" id="menu-toggle"></i>
       <div id="menu" className="menu flex flex-col h-full">
         <i className="fa fa-times" id="menu-close"></i>
@@ -35,16 +35,16 @@ export default function Sidebar() {
           </nav>
           <div className="social-network my-4">
             <ul className="social-icons flex gap-4">
-              <li className="bg-[#7f1923b8] p-2 text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
+              <li className="bg-[#7f1923b8] py-3 px-3 text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
                 <a href="https://fb.com/templatemo"><FaFacebook /></a>
               </li>
-              <li className="bg-[#7f1923b8] p-2 text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
+              <li className="bg-[#7f1923b8] py-3 px-3 text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
                 <a href="https://fb.com/templatemo"><FaTwitter /></a>
               </li>
-              <li className="bg-[#7f1923b8] p-2 text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
+              <li className="bg-[#7f1923b8] py-3 px-3 text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
                 <a href="https://fb.com/templatemo"><FaLinkedin /></a>
               </li>
-              <li className="bg-[#7f1923b8] p-2 text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
+              <li className="bg-[#7f1923b8] py-3 px-3 text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
                 <a href="https://fb.com/templatemo"><FaInstagram /></a>
               </li>
             </ul>
