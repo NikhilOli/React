@@ -2,7 +2,7 @@ import leftImg from '../assets/images/left-image.jpg'
 import rightImg from '../assets/images/right-image.jpg'
 const About = () => {
   return (
-    <section className="section about-me" data-section="section1">
+    <section className="section about-me" id='section1' data-section="section1">
         <div className="container">
           <div className="section-heading text-center mb-16">
             <h2 className="text-3xl font-bold">About Me</h2>
@@ -66,7 +66,7 @@ const About = () => {
         <hr className="w-full bg-[#ffffff4d] border-0 h-[2px] my-20" />
       </section>
       
-  )
+  );
 }
 
 export default About
