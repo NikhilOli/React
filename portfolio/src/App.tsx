@@ -1,5 +1,6 @@
 import Sidebar from "./components/Sidebar"
 import About from "./pages/About"
+import Contacts from "./pages/Contacts"
 import Projects from "./pages/Projects"
 import Services from "./pages/Services"
 
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       <Services />
       <Projects />
+      <Contacts />
       </div>
     </div>
   )

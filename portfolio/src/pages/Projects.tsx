@@ -1,4 +1,4 @@
-import { Fa5, FaPersonRifle } from "react-icons/fa6";
+import { FaPersonRifle } from "react-icons/fa6";
 import portfolio1 from "../assets/images/portfolio-01.jpg";
 import portfolio2 from "../assets/images/portfolio-02.jpg";
 import portfolio3 from "../assets/images/portfolio-03.jpg";
@@ -164,6 +164,7 @@ const Projects = () => {
             </div>
             </div>
         </div>
+        <hr className="w-full bg-[#ffffff4d] border-0 h-[2px] my-20" />
         </section>
     );
 };
