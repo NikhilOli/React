@@ -5,10 +5,12 @@
 @tailwind utilities;
 
 body {
-    @apply bg-cover bg-center;
+    @apply bg-cover bg-center ;
     background-image: url('./assets/images/page-bg.jpg');
     color: #f8f9fa;
     /* backdrop-filter: blur(1px);  */
     font-family: "Space Grotesk", serif;
+    background-attachment: fixed;
+
 
 }

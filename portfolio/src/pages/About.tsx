@@ -2,9 +2,9 @@ import leftImg from '../assets/images/left-image.jpg'
 import rightImg from '../assets/images/right-image.jpg'
 const About = () => {
   return (
-    <section className="section about-me" id='section1' data-section="section1">
+    <section  className="section about-me" id='about' data-section="section1">
         <div className="container">
-          <div className="section-heading text-center mb-16">
+          <div className="section-heading text-center mb-16 mt-4">
             <h2 className="text-3xl font-bold">About Me</h2>
             <div className="w-12 sm:w-16 h-1 bg-gradient-to-r from-orange-500 to-purple-600 my-4 rounded mx-auto" />
             <div className="line-dec"></div>

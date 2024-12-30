@@ -8,7 +8,7 @@ import thirdMainIcon from '../assets/images/third-main-icon.png'
 import fourthMainIcon from '../assets/images/fourth-main-icon.png'
 const Services = () => {
     return (
-    <section className="section my-services" id='section2' data-section="section2">
+    <section className="section my-services" id='services' data-section="section2">
         <div className="container">
         <div className="section-heading text-center mb-16">
             <h2 className="text-3xl font-bold">What I’m good at?</h2>

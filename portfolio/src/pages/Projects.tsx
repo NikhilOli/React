@@ -8,7 +8,7 @@ import portfolio6 from "../assets/images/portfolio-06.jpg";
 
 const Projects = () => {
     return (
-        <section className="section my-work" data-section="section3">
+        <section className="section my-work" data-section="section3" id='section3'>
         <div className="container">
             <div className="section-heading text-center mb-16">
             <h2 className="text-3xl font-bold">My Work</h2>
