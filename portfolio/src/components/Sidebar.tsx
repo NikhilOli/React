@@ -2,7 +2,6 @@ import { FaBars, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-ic
 import authorImage from '../assets/images/author-image.jpg';
 import { useState } from 'react';
 import { GiCancel } from 'react-icons/gi';
-import {Link} from 'react-scroll';
 
 export default function Sidebar() {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
@@ -45,23 +44,23 @@ export default function Sidebar() {
             {/* Author Details */}
             <div className="author-content text-center">
               <h4 className="text-3xl font-semibold text-white">Aryan Pakhrin</h4>
-              <span className="font-medium italic text-gray-200">Web Designer</span>
+              <span className="font-medium italic text-gray-200">Web Developer</span>
             </div>
 
             {/* Navigation Menu */}
             <nav className="main-nav w-full my-4">
               <ul className="main-menu flex flex-col items-center text-center text-lg w-full">
                 <li className="border-white border-b w-full py-4 font-semibold text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-500 ease-in">
-                  <Link href="#section1">About Me</Link>
+                  <a href="#about">About Me</a>
                 </li>
                 <li className="border-white border-b w-full py-4 font-semibold text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-500 ease-in">
-                  <a href="#section2">What I'm good at</a>
+                  <a href="#services">What I'm good at</a>
                 </li>
                 <li className="border-white border-b w-full py-4 font-semibold text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-500 ease-in">
-                  <Link href="#section3">My Work</Link>
+                  <a href="#section3">My Work</a>
                 </li>
                 <li className="border-white border-b w-full py-4 font-semibold text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-500 ease-in">
-                  <Link href="#section4">Contact Me</Link>
+                  <a href="#section4">Contact Me</a>
                 </li>
               </ul>
             </nav>
@@ -80,7 +79,7 @@ export default function Sidebar() {
                   </a>
                 </li>
                 <li className="bg-[#7f1923b8] py-2 px-2 rounded-full text-white hover:bg-white hover:text-[#dc3545] transition-colors duration-300">
-                  <a href="https://linkedin.com">
+                  <a href="https://aedin.com">
                     <FaLinkedin />
                   </a>
                 </li>
